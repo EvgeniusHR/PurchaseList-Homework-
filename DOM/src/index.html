@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- link:css -->
+     <!--<link rel="stylesheet" href="styles/style.css">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- .container>.row>.col + TAB -->
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1 align="center">Purchases List</h1>
+            <div class="row">
+                <div class="col-sm-3">
+                    <input id="name" type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="col-sm-3">
+                    <input id="price" type="number" class="form-control" placeholder="Price">
+                </div>
+                <div class="col-sm-3">
+                    <input id="category" type="text" class="form-control" placeholder="Category">
+                </div>
+                    <div class="col-sm-1">
+                    <button id="add" class="btn btn-success">Add</button>
+                    </div>
+            </div>
+            <ul id="purchases" class="list-group mt-3">
+            </ul>
+            <h4>Most expensive purchase: </h4>
+            <ul id="most expensive purchase" class="list-group mt-3">
+            </ul>
+            <h4>Most expensive category: </h4>
+            <ul id="most expensive category" class="list-group mt-3">
+            </ul>
+
+            <h4>Stats: </h4>
+            <div class="row">
+                <div class="col-sm-9">
+            <h5>Total </h5>
+                </div>
+            <div class="col-sm-1">
+                <div id="total" class="list-group">0</div>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-9">
+                    <h5>Count </h5>
+                </div>
+                <div class="col-sm-1">
+                    <div id="items-count" class="list-group">0</div>
+                </div>
+        </div>
+    </div>
+
+
+
+
+
+<script src="js/app.js" type="module"></script>
+</body>
+</html>

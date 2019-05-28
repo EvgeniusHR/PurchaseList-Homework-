@@ -1,0 +1,37 @@
+/*
+
+* {
+    color: #00ff00;
+}
+
+*/
+
+button { /* все кнопки будут выглядеть так */
+    background: transparent;
+    border-radius: 5px;
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#items { /* селектор по id */
+    border-radius: 5px;
+    border-color: red;
+    border-width: 1px;
+    border-style: dashed;
+}
+
+.items-item { /* селектор по классу */
+    list-style-type: none;
+    line-height: 25px;
+}
+
+[type=text] { /* все элементы, у которых есть атрибут type и оно равно text */
+    background: transparent;
+    border-radius: 5px;
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
